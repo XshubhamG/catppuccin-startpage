@@ -35,6 +35,12 @@ const default_config = {
               icon: 'binary-tree',
               icon_color: palette.peach,
             },
+            {
+              name: 'chatGPT',
+              url: 'https://chat.openai.com/chat',
+              icon: 'brand-whatsapp',
+              icon_color: palette.maroon,
+            },
           ],
         },
         {
@@ -58,6 +64,12 @@ const default_config = {
               icon: 'brand-windows',
               icon_color: palette.red,
             },
+            {
+              name: 'drive',
+              url: 'https://drive.google.com',
+              icon: 'brand-google-drive',
+              icon_color: palette.blue,
+            },
           ],
         },
         {
@@ -78,11 +90,11 @@ const default_config = {
             {
               name: 'DU',
               url: 'https://slc.uod.ac.in/index.php/dashboard',
-              icon: 'chalkboard',
+              icon: 'settings-automation',
               icon_color: palette.red,
             },
             {
-              name: 'e-gyan',
+              name: 'e-GyanKosh',
               url: 'https://egyankosh.ac.in/handle/123456789/72354',
               icon: 'book-2',
               icon_color: palette.blue,
@@ -96,64 +108,82 @@ const default_config = {
       background_url: 'src/img/banners/cbg-8.gif',
       categories: [
         {
-          name: 'resources',
+          name: 'social',
           links: [
             {
               name: 'github',
-              url: 'https://github.com',
+              url: 'https://github.com/xshubhamg',
               icon: 'brand-github',
               icon_color: palette.green,
             },
             {
-              name: 'neptune',
-              url: 'https://ui.neptune.ai',
-              icon: 'circle-triangle',
+              name: 'reddit',
+              url: 'https://reddit.com/r/unixporn',
+              icon: 'brand-reddit',
               icon_color: palette.peach,
             },
             {
-              name: 'wakatime',
-              url: 'https://wakatime.com',
-              icon: '24-hours',
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: 'challenges',
-          links: [
-            {
-              name: 'kaggle',
-              url: 'https://www.kaggle.com',
-              icon: 'brain',
-              icon_color: palette.green,
-            },
-            {
-              name: 'leetcode',
-              url: 'https://leetcode.com',
-              icon: 'code-plus',
-              icon_color: palette.peach,
-            },
-            {
-              name: 'exercism',
-              url: 'https://exercism.org',
-              icon: 'code-minus',
+              name: 'twitter',
+              url: 'https://x.com/home',
+              icon: 'brand-twitter',
               icon_color: palette.red,
             },
             {
-              name: 'stackoverflow',
-              url: 'https://stackoverflow.com',
-              icon: 'brand-stackoverflow',
+              name: 'whatsapp',
+              url: 'https://web.whatsapp.com',
+              icon: 'brand-whatsapp',
               icon_color: palette.blue,
             },
+            {
+              name: 'telegram',
+              url: 'https://web.telegram.org',
+              icon: 'brand-telegram',
+              icon_color: palette.yellow,
+            },
           ],
         },
         {
-          name: 'blogs',
+          name: 'resources',
           links: [
             {
-              name: 'dou',
-              url: 'https://dou.ua',
-              icon: 'brand-prisma',
+              name: 'Rust-book',
+              url: 'https://doc.rust-lang.org/book/title-page.html',
+              icon: 'brand-rust',
+              icon_color: palette.red,
+            },
+            {
+              name: 'go-Book',
+              url: 'https://www.golang-book.com/books/intro',
+              icon: 'brand-golang',
+              icon_color: palette.blue,
+            },
+            {
+              name: 'Modern JS',
+              url: 'https://javascript.info/',
+              icon: 'brand-javascript',
+              icon_color: palette.yellow,
+            },
+            {
+              name: 'A2Z',
+              url: 'https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/',
+              icon: 'arrow-badge-up',
+              icon_color: palette.peach,
+            },
+            {
+              name: 'Udemy',
+              url: 'https://www.udemy.com',
+              icon: 'building-bank',
+              icon_color: palette.green,
+            },
+          ],
+        },
+        {
+          name: 'Guide',
+          links: [
+            {
+              name: 'QuickRef',
+              url: 'https://quickref.me/',
+              icon: 'currency-quetzal',
               icon_color: palette.green,
             },
             {
@@ -163,15 +193,15 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: 'uber research',
-              url: 'https://eng.uber.com/category/articles',
-              icon: 'brand-uber',
+              name: 'w3schools',
+              url: 'https://www.w3schools.com',
+              icon: 'brand-bumble',
               icon_color: palette.red,
             },
             {
-              name: 'google research',
-              url: 'https://blog.research.google',
-              icon: 'hexagon-letter-g',
+              name: 'roadmap',
+              url: 'https://roadmap.sh/',
+              icon: 'map-cog',
               icon_color: palette.blue,
             },
           ],
@@ -179,7 +209,7 @@ const default_config = {
       ],
     },
     {
-      name: 'chi ll',
+      name: 'chill',
       background_url: 'src/img/banners/cbg-10.gif',
       categories: [
         {
