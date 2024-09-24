@@ -3,6 +3,7 @@ const palette = mocha
 
 const default_config = {
   overrideStorage: true,
+  localIcons: true,
   temperature: {
     location: 'Kolkata',
     scale: 'C',
@@ -52,16 +53,8 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: 'sheets',
-              url: 'https://docs.google.com/spreadsheets',
-              icon: 'table',
-              icon_color: palette.red,
-            },
-            {
-              name: 'drive',
-              url: 'https://drive.google.com/drive/home',
-              icon: 'brand-google-drive',
-              icon_color: palette.blue,
+              name: 'Office',
+              url: 'https:',
             },
           ],
         },
