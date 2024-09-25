@@ -209,89 +209,76 @@ const default_config = {
       ],
     },
     {
-      name: 'chill',
+      name: 'chi ll',
       background_url: 'src/img/banners/cbg-10.gif',
       categories: [
         {
-          name: 'social medias',
+          name: 'animanga',
           links: [
             {
-              name: 'telegram',
-              url: 'https://web.telegram.org',
-              icon: 'brand-telegram',
+              name: 'manga',
+              url: 'https://mangareader.net',
+              icon: 'brand-medium',
               icon_color: palette.green,
             },
             {
-              name: 'facebook',
-              url: 'https://www.facebook.com',
-              icon: 'brand-facebook',
+              name: 'manga+',
+              url: 'https://mangaplus.shueisha.co.jp/updates',
+              icon: 'location-plus',
               icon_color: palette.peach,
             },
             {
-              name: 'reddit',
-              url: 'https://www.reddit.com/r/unixporn',
-              icon: 'brand-reddit',
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: 'games',
-          links: [
-            {
-              name: 'IGN',
-              url: 'https://www.ign.com/account/playlist/library',
-              icon: 'device-gamepad',
-              icon_color: palette.green,
-            },
-            {
-              name: 'steam',
-              url: 'https://store.steampowered.com',
-              icon: 'brand-steam',
-              icon_color: palette.peach,
-            },
-            {
-              name: 'epicgames',
-              url: 'https://store.epicgames.com',
-              icon: 'brand-fortnite',
+              name: 'aniwatch',
+              url: 'https://aniwatchtv.to/home',
+              icon: 'alpha',
               icon_color: palette.red,
             },
             {
-              name: 'nintendo',
-              url: 'https://store.nintendo.co.uk',
-              icon: 'device-nintendo',
+              name: 'crunchyroll',
+              url: 'https://www.crunchyroll.com',
+              icon: 'brand-revolut',
               icon_color: palette.blue,
             },
-          ],
-        },
-        {
-          name: 'video',
-          links: [
             {
               name: 'anilist',
               url: 'https://anilist.co/home',
               icon: 'brand-funimation',
               icon_color: palette.green,
             },
+          ],
+        },
+        {
+          name: 'stream',
+          links: [
             {
               name: 'youtube',
               url: 'https://www.youtube.com',
               icon: 'brand-youtube',
-              icon_color: palette.peach,
+              icon_color: palette.red,
             },
             {
               name: 'patreon',
               url: 'https://www.patreon.com',
               icon: 'brand-patreon',
-              icon_color: palette.red,
+              icon_color: palette.peach,
             },
             {
-              name: 'kyivstar',
-              url: 'https://tv.kyivstar.ua',
-              icon: 'star-filled',
+              name: 'twitch',
+              url: 'https://www.twitch.tv',
+              icon: 'brand-twitch',
               icon_color: palette.blue,
             },
+            {
+              name: 'jiocinema',
+              url: 'https://www.jiocinema.com/',
+              icon: 'movie',
+              icon_color: palette.green,
+            },
           ],
+        },
+        {
+          name: 'misc',
+          links: [{}],
         },
       ],
     },
