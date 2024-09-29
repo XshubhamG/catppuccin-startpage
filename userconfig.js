@@ -175,6 +175,12 @@ const default_config = {
               icon: 'building-bank',
               icon_color: palette.green,
             },
+            {
+              name: 'boot.dev',
+              url: 'https://www.boot.dev/tracks/backend',
+              icon: 'terminal-2',
+              icon_color: palette.maroon,
+            },
           ],
         },
         {
