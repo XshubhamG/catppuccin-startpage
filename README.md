@@ -25,7 +25,6 @@
 
 Aesthetic and clean startpage in [**Catppuccin**](https://catppuccin.com/palette) style, hosted on GitHub Pages.
 This startpage is based on the [`dawn`](https://github.com/b-coimbra/dawn), which has even more functionality.
-I've tweaked the page to match my [`dotfiles`](https://github.com/pivoshenko/dotfiles) so check them out as well.
 
 ### 🧠 Main principles
 
