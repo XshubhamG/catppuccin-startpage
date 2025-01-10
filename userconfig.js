@@ -229,7 +229,7 @@ const default_config = {
           links: [
             {
               name: "manga",
-              url: "https://mangareader.net",
+              url: "https://mangareader.to/home",
               icon: "brand-medium",
               icon_color: palette.green,
             },
