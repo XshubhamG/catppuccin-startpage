@@ -290,7 +290,14 @@ const default_config = {
         },
         {
           name: "misc",
-          links: [{}],
+          links: [
+            {
+              name: "monkeytype",
+              url: "https://monkeytype.com/",
+              icon: "keyboard",
+              icon_color: palette.yellow,
+            },
+          ],
         },
       ],
     },
