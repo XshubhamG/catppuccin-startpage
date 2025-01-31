@@ -187,6 +187,12 @@ const default_config = {
               icon: "terminal-2",
               icon_color: palette.maroon,
             },
+            {
+              name: "gfd",
+              url: "https://developers.google.com/?authuser=2",
+              icon: "brand-google",
+              icon_color: palette.blue,
+            },
           ],
         },
         {
@@ -215,6 +221,12 @@ const default_config = {
               url: "https://roadmap.sh/",
               icon: "map-cog",
               icon_color: palette.blue,
+            },
+            {
+              name: "web.dev",
+              url: "https://web.dev/?authuser=2",
+              icon: "brand-google-home",
+              icon_color: palette.yellow,
             },
           ],
         },
