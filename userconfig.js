@@ -21,31 +21,25 @@ const default_config = {
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "LLMS",
           links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
             {
               name: "chatGPT",
               url: "https://chat.openai.com/chat",
-              icon: "brand-whatsapp",
+              icon: "brand-openai",
               icon_color: palette.maroon,
             },
             {
-              name: "daily.dev",
-              url: "https://app.daily.dev/",
-              icon: "brand-supernova",
+              name: "preplexity",
+              url: "https://preplexity.ai",
+              icon: "brand-figma",
               icon_color: palette.blue,
+            },
+            {
+              name: "deepseek",
+              url: "https://chat.deepseek.com",
+              icon: "robot",
+              icon_color: palette.peach,
             },
           ],
         },
@@ -56,13 +50,13 @@ const default_config = {
               name: "gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
-              icon_color: palette.green,
+              icon_color: palette.peach,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
-              icon_color: palette.peach,
+              name: "raindrop",
+              url: "https://app.raindrop.io",
+              icon: "droplet-bolt",
+              icon_color: palette.blue,
             },
             {
               name: "MSOffice",
@@ -74,7 +68,13 @@ const default_config = {
               name: "drive",
               url: "https://drive.google.com",
               icon: "brand-google-drive",
-              icon_color: palette.blue,
+              icon_color: palette.green,
+            },
+            {
+              name: "lofi-music",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
             },
           ],
         },
@@ -114,42 +114,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
-          name: "social",
-          links: [
-            {
-              name: "github",
-              url: "https://github.com/xshubhamg",
-              icon: "brand-github",
-              icon_color: palette.green,
-            },
-            {
-              name: "reddit",
-              url: "https://reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.peach,
-            },
-            {
-              name: "twitter",
-              url: "https://x.com/home",
-              icon: "brand-twitter",
-              icon_color: palette.red,
-            },
-            {
-              name: "whatsapp",
-              url: "https://web.whatsapp.com",
-              icon: "brand-whatsapp",
-              icon_color: palette.blue,
-            },
-            {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.yellow,
-            },
-          ],
-        },
-        {
-          name: "resources",
+          name: "books",
           links: [
             {
               name: "Rust-book",
@@ -170,11 +135,16 @@ const default_config = {
               icon_color: palette.yellow,
             },
             {
-              name: "A2Z",
-              url: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
-              icon: "arrow-badge-up",
-              icon_color: palette.peach,
+              name: "web.dev",
+              url: "https://web.dev/?authuser=2",
+              icon: "brand-google-home",
+              icon_color: palette.yellow,
             },
+          ],
+        },
+        {
+          name: "courses",
+          links: [
             {
               name: "Udemy",
               url: "https://www.udemy.com",
@@ -188,10 +158,16 @@ const default_config = {
               icon_color: palette.maroon,
             },
             {
-              name: "gfd",
-              url: "https://developers.google.com/?authuser=2",
-              icon: "brand-google",
-              icon_color: palette.blue,
+              name: "A2Z",
+              url: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+              icon: "arrow-badge-up",
+              icon_color: palette.peach,
+            },
+            {
+              name: "Frontend Master",
+              url: "https://frontendmasters.com/courses/algorithms",
+              icon: "stack",
+              icon_color: palette.peach,
             },
           ],
         },
@@ -205,28 +181,22 @@ const default_config = {
               icon_color: palette.green,
             },
             {
+              name: "Gooogle-for-devs",
+              url: "https://developers.google.com/?authuser=2",
+              icon: "brand-google",
+              icon_color: palette.blue,
+            },
+            {
               name: "hackernews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: palette.peach,
             },
             {
-              name: "w3schools",
-              url: "https://www.w3schools.com",
-              icon: "brand-bumble",
-              icon_color: palette.red,
-            },
-            {
               name: "roadmap",
               url: "https://roadmap.sh/",
               icon: "map-cog",
-              icon_color: palette.blue,
-            },
-            {
-              name: "web.dev",
-              url: "https://web.dev/?authuser=2",
-              icon: "brand-google-home",
-              icon_color: palette.yellow,
+              icon_color: palette.red,
             },
           ],
         },
@@ -281,9 +251,9 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "Movies",
+              url: "https://hurawatch.cc/home",
+              icon: "video",
               icon_color: palette.peach,
             },
             {
@@ -298,15 +268,45 @@ const default_config = {
               icon: "movie",
               icon_color: palette.green,
             },
-          ],
-        },
-        {
-          name: "misc",
-          links: [
             {
               name: "monkeytype",
               url: "https://monkeytype.com/",
               icon: "keyboard",
+              icon_color: palette.yellow,
+            },
+          ],
+        },
+        {
+          name: "social",
+          links: [
+            {
+              name: "github",
+              url: "https://github.com/xshubhamg",
+              icon: "brand-github",
+              icon_color: palette.green,
+            },
+            {
+              name: "reddit",
+              url: "https://reddit.com/r/unixporn",
+              icon: "brand-reddit",
+              icon_color: palette.peach,
+            },
+            {
+              name: "twitter",
+              url: "https://x.com/home",
+              icon: "brand-twitter",
+              icon_color: palette.red,
+            },
+            {
+              name: "whatsapp",
+              url: "https://web.whatsapp.com",
+              icon: "brand-whatsapp",
+              icon_color: palette.blue,
+            },
+            {
+              name: "telegram",
+              url: "https://web.telegram.org",
+              icon: "brand-telegram",
               icon_color: palette.yellow,
             },
           ],
