@@ -263,9 +263,9 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "jiocinema",
-              url: "https://www.jiocinema.com/",
-              icon: "movie",
+              name: "Hotstar",
+              url: "https://www.hotstar.com/in/home",
+              icon: "brand-disney",
               icon_color: palette.green,
             },
             {
