@@ -41,6 +41,12 @@ const default_config = {
               icon: "robot",
               icon_color: palette.peach,
             },
+            {
+              name: "Gemini AI",
+              url: "https://gemini.google.com/app",
+              icon: "brain",
+              icon_color: palette.green,
+            },
           ],
         },
         {
